@@ -1,1 +1,9 @@
-{"sent": [], "pending": null}
+{
+  "sent": [],
+  "pending": {
+    "id": "card-001",
+    "channel": "@testdigi1231",
+    "date": "2026-11-01",
+    "type": "card"
+  }
+}
