@@ -1,0 +1,12 @@
+{
+  "site": "https://digihinet.com",
+  "week": {
+    "0": "video",
+    "1": "card",
+    "2": "text",
+    "3": "portfolio",
+    "4": "text",
+    "5": "text",
+    "6": "article"
+  }
+}
