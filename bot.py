@@ -183,8 +183,7 @@ def send(post, channel, token, card=None):
     except ValueError: raise RuntimeError('پاسخ تلگرام نامشخص است؛ pending را بررسی کنید.') from None
     if not data.get('ok'):
         # Deliberately do not print raw responses or token-bearing request URLs.
-        raise RuntimeError('تلگرام ارسال را تأیید نکرد؛ کد خطا: ' + str(data.get('error_code', response.status_code)))
-    return data['result']['message_id']
+        raise RuntimeError(str(data.get('error_code', response.status_code)) + ' | ' + str(data.get('description', '')).replace(token, '[REDACTED]'))    return data['result']['message_id']
 
 
 def main():
