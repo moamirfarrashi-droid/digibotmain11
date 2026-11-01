@@ -1,12 +1,15 @@
 {
   "@testdigi1231": {
     "start_date": "2026-11-02",
-    "sent": [],
-    "pending": {
-      "id": "dh20-d01-s2",
-      "day": 1,
-      "slot": 2,
-      "attempted_at": "2026-11-02T00:52:59.156634+03:30"
-    }
+    "sent": [
+      {
+        "id": "dh20-d01-s2",
+        "day": 1,
+        "slot": 2,
+        "attempted_at": "2026-11-02T00:52:59.156634+03:30",
+        "message_id": 3
+      }
+    ],
+    "pending": null
   }
 }
