@@ -22,13 +22,15 @@
         "slot": 1,
         "attempted_at": "2026-11-02T11:55:43.278540+03:30",
         "message_id": 5
+      },
+      {
+        "id": "dh20-d01-s3",
+        "day": 1,
+        "slot": 3,
+        "attempted_at": "2026-11-02T11:57:54.146618+03:30",
+        "message_id": 6
       }
     ],
-    "pending": {
-      "id": "dh20-d01-s3",
-      "day": 1,
-      "slot": 3,
-      "attempted_at": "2026-11-02T11:57:54.146618+03:30"
-    }
+    "pending": null
   }
 }
