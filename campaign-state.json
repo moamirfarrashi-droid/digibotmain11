@@ -71,13 +71,15 @@
         "slot": 3,
         "attempted_at": "2026-11-03T02:45:20.286621+03:30",
         "message_id": 14
+      },
+      {
+        "id": "dh20-d04-s4",
+        "day": 4,
+        "slot": 4,
+        "attempted_at": "2026-11-03T02:45:25.841354+03:30",
+        "message_id": 15
       }
     ],
-    "pending": {
-      "id": "dh20-d04-s4",
-      "day": 4,
-      "slot": 4,
-      "attempted_at": "2026-11-03T02:45:25.841354+03:30"
-    }
+    "pending": null
   }
 }
