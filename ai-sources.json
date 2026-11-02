@@ -1,0 +1,76 @@
+{
+  "policy": {
+    "max_age_hours": 48,
+    "publication": "short_persian_excerpt",
+    "show_source": false
+  },
+  "feeds": [
+    {
+      "name": "دیجیاتو AI",
+      "url": "https://digiato.com/topic/tech/artificial-intelligence/feed"
+    },
+    {
+      "name": "دیجیاتو فناوری",
+      "url": "https://digiato.com/feed"
+    },
+    {
+      "name": "زومیت",
+      "url": "https://www.zoomit.ir/feed/"
+    },
+    {
+      "name": "هوشیو",
+      "url": "https://hooshio.com/feed/"
+    }
+  ],
+  "display_source_names": [
+    "دیجیاتو",
+    "زومیت",
+    "هوشیو"
+  ],
+  "ai_keywords": [
+    "هوش مصنوعی",
+    "chatgpt",
+    "openai",
+    "claude",
+    "gemini",
+    "چت جی پی تی",
+    "چت‌بات",
+    "چت بات",
+    "جمنای",
+    "جمینای",
+    "گراک",
+    "کلاد",
+    "آنتروپیک",
+    "ایجنت",
+    "عامل هوشمند",
+    "دیپ سیک"
+  ],
+  "tech_keywords": [
+    "امنیت",
+    "سایبری",
+    "نرم افزار",
+    "نرم‌افزار",
+    "مایکروسافت",
+    "گوگل",
+    "اپل",
+    "متا",
+    "اینترنت",
+    "پردازنده",
+    "تراشه",
+    "ربات",
+    "اندروید",
+    "ویندوز",
+    "iOS",
+    "فناوری",
+    "استارتاپ"
+  ],
+  "exclude_keywords": [
+    "خودرو",
+    "قیمت دلار",
+    "فال",
+    "طالع بینی",
+    "لوازم خانگی",
+    "شرایط فروش",
+    "کد تخفیف"
+  ]
+}
