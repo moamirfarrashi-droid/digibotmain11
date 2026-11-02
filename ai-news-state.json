@@ -10,6 +10,12 @@
         "message_id": 10
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-03-s2",
+      "url": "https://www.zoomit.ir/ai-articles/470366-gemini-4-carbon-gdpx-benchmark-value/",
+      "title": "درخشش جمنای ۴ کربن؛ هوش مصنوعی پرقدرت گوگل تقریبا هم‌سطح کلاد اما بسیار ارزان‌تر است",
+      "source": "زومیت",
+      "attempted_at": "2026-11-03T02:45:37.597951+03:30"
+    }
   }
 }
