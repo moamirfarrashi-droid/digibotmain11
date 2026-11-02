@@ -1,0 +1,71 @@
+name: Test All Content
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: digihinet-publisher
+  cancel-in-progress: false
+
+jobs:
+  test-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: python -m pip install requests==2.32.5
+
+      - name: Git identity
+        run: |
+          git config user.name 'digihinet-bot'
+          git config user.email 'digihinet-bot@users.noreply.github.com'
+
+      - name: Send one complete day to test channel
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_TEST_CHANNEL_ID: ${{ secrets.TELEGRAM_TEST_CHANNEL_ID }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          PERSIST_STATE: 'true'
+        run: |
+          python - <<'PY'
+          import subprocess
+          import sys
+          import time
+
+          plan = [
+              ("campaign20.py", 1),
+              ("ai_daily.py", 1),
+              ("campaign20.py", 2),
+              ("news_fa.py", 1),
+              ("campaign20.py", 3),
+              ("campaign20.py", 4),
+              ("campaign20.py", 5),
+              ("news_fa.py", 2),
+              ("ai_daily.py", 2),
+              ("campaign20.py", 6),
+          ]
+
+          for script, slot in plan:
+              command = [
+                  sys.executable, script,
+                  "--mode", "test",
+                  "--slot", str(slot),
+              ]
+              if script != "news_fa.py":
+                  command += ["--day", "4"]
+
+              print(f"Testing {script}, slot {slot}", flush=True)
+              subprocess.run(command, check=True)
+              time.sleep(2)
+          PY
