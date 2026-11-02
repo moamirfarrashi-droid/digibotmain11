@@ -1,0 +1,12 @@
+{
+  "@testdigi1231": {
+    "start_date": "2026-11-03",
+    "sent": [],
+    "pending": {
+      "id": "dhai20-d04-s1",
+      "day": 4,
+      "slot": 1,
+      "attempted_at": "2026-11-03T02:45:04.717754+03:30"
+    }
+  }
+}
