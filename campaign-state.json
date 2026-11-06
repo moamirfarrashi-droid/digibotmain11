@@ -98,12 +98,15 @@
   },
   "@digihinet": {
     "start_date": "2026-11-07",
-    "sent": [],
-    "pending": {
-      "id": "dh20-d01-s1",
-      "day": 1,
-      "slot": 1,
-      "attempted_at": "2026-11-07T01:55:53.292857+03:30"
-    }
+    "sent": [
+      {
+        "id": "dh20-d01-s1",
+        "day": 1,
+        "slot": 1,
+        "attempted_at": "2026-11-07T01:55:53.292857+03:30",
+        "message_id": 1226
+      }
+    ],
+    "pending": null
   }
 }
