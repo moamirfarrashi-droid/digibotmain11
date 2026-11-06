@@ -1,0 +1,40 @@
+name: DigiHinet Admin Reports
+on:
+  schedule:
+    - cron: '2-57/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: digihinet-publisher
+  cancel-in-progress: false
+jobs:
+  reports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests==2.32.5
+      - name: Check report logic
+        run: python -m unittest test_telegram_reports -v
+      - name: Git identity
+        run: |
+          git config user.name 'digihinet-bot'
+          git config user.email 'digihinet-bot@users.noreply.github.com'
+      - name: Answer managers and send daily reports
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          TELEGRAM_REPORT_ADMIN_IDS: ${{ secrets.TELEGRAM_REPORT_ADMIN_IDS }}
+          ENABLE_POSTING: ${{ vars.ENABLE_POSTING }}
+          ENABLE_AI_POSTING: ${{ vars.ENABLE_AI_POSTING }}
+          ENABLE_AI_NEWS: ${{ vars.ENABLE_AI_NEWS }}
+          ENABLE_REPORTS: ${{ vars.ENABLE_REPORTS || 'true' }}
+          ENABLE_DAILY_REPORT: ${{ vars.ENABLE_DAILY_REPORT || 'true' }}
+          PERSIST_STATE: 'true'
+        run: python telegram_reports.py
