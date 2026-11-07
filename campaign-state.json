@@ -134,13 +134,15 @@
         "scheduled_at": "2026-11-07T18:17:00+03:30",
         "attempted_at": "2026-11-07T21:12:43.168361+03:30",
         "message_id": 1232
+      },
+      {
+        "id": "dh20-d02-s6",
+        "day": 2,
+        "slot": 6,
+        "attempted_at": "2026-11-08T00:35:53.218870+03:30",
+        "message_id": 1236
       }
     ],
-    "pending": {
-      "id": "dh20-d02-s6",
-      "day": 2,
-      "slot": 6,
-      "attempted_at": "2026-11-08T00:35:53.218870+03:30"
-    }
+    "pending": null
   }
 }
