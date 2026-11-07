@@ -19,5 +19,15 @@
       }
     ],
     "pending": null
+  },
+  "@digihinet": {
+    "sent": [],
+    "pending": {
+      "key": "2026-11-07-s1",
+      "url": "https://digiato.com/artificial-intelligence/anthropic-usage-policy-update-iran-access",
+      "title": "آنتروپیک درحال مسدود کردن برخی حساب‌های ایرانی؛ از اطلاعات «کلاد» خودتان پشتیبان تهیه کنید",
+      "source": "دیجیاتو AI",
+      "attempted_at": "2026-11-07T18:39:28.770351+03:30"
+    }
   }
 }
