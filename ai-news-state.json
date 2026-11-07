@@ -29,14 +29,16 @@
         "source": "دیجیاتو AI",
         "attempted_at": "2026-11-07T18:39:28.770351+03:30",
         "message_id": 1229
+      },
+      {
+        "key": "2026-11-07-s2",
+        "url": "https://www.zoomit.ir/health-medical/470665-ai-chatbots-kids-mental-health/",
+        "title": "کودکانی که به هوش مصنوعی پناه می‌برند، مشکلات روانی بیشتری دارند",
+        "source": "زومیت",
+        "attempted_at": "2026-11-07T21:13:10.062006+03:30",
+        "message_id": 1234
       }
     ],
-    "pending": {
-      "key": "2026-11-07-s2",
-      "url": "https://www.zoomit.ir/health-medical/470665-ai-chatbots-kids-mental-health/",
-      "title": "کودکانی که به هوش مصنوعی پناه می‌برند، مشکلات روانی بیشتری دارند",
-      "source": "زومیت",
-      "attempted_at": "2026-11-07T21:13:10.062006+03:30"
-    }
+    "pending": null
   }
 }
