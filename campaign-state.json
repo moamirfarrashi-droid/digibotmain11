@@ -189,13 +189,15 @@
         "scheduled_at": "2026-11-08T18:17:00+03:30",
         "attempted_at": "2026-11-08T22:02:31.145883+03:30",
         "message_id": 1246
+      },
+      {
+        "id": "dh20-d03-s6",
+        "day": 3,
+        "slot": 6,
+        "attempted_at": "2026-11-09T00:52:37.139721+03:30",
+        "message_id": 1249
       }
     ],
-    "pending": {
-      "id": "dh20-d03-s6",
-      "day": 3,
-      "slot": 6,
-      "attempted_at": "2026-11-09T00:52:37.139721+03:30"
-    }
+    "pending": null
   }
 }
