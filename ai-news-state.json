@@ -37,14 +37,16 @@
         "source": "زومیت",
         "attempted_at": "2026-11-07T21:13:10.062006+03:30",
         "message_id": 1234
+      },
+      {
+        "key": "2026-11-08-s1",
+        "url": "https://www.zoomit.ir/iran-news/470730-anthropic-claude-iran-access-restrictions/",
+        "title": "دسترسی ایرانی‌ها به کلاد محدودتر می‌شود؟ حتی ثبت شرکت در خارج هم کافی نیست",
+        "source": "زومیت",
+        "attempted_at": "2026-11-08T19:05:50.089836+03:30",
+        "message_id": 1245
       }
     ],
-    "pending": {
-      "key": "2026-11-08-s1",
-      "url": "https://www.zoomit.ir/iran-news/470730-anthropic-claude-iran-access-restrictions/",
-      "title": "دسترسی ایرانی‌ها به کلاد محدودتر می‌شود؟ حتی ثبت شرکت در خارج هم کافی نیست",
-      "source": "زومیت",
-      "attempted_at": "2026-11-08T19:05:50.089836+03:30"
-    }
+    "pending": null
   }
 }
