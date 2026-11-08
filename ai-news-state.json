@@ -47,6 +47,12 @@
         "message_id": 1245
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-08-s2",
+      "url": "https://www.zoomit.ir/ai-articles/470686-qwen-4-ai-builds-minecraft-clone/",
+      "title": "جادوی هوش مصنوعی چینی؛ Qwen 4 بازی ماینکرفت را از صفر ساخت",
+      "source": "زومیت",
+      "attempted_at": "2026-11-08T22:02:45.428002+03:30"
+    }
   }
 }
