@@ -55,6 +55,12 @@
         "message_id": 1247
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-09-s1",
+      "url": "https://www.zoomit.ir/energy-environment/470710-europe-protests-ai-data-centers/",
+      "title": "از ایرلند تا فنلاند؛ مردم اروپا به مصرف برق و آب دیتاسنترهای هوش مصنوعی اعتراض کردند",
+      "source": "زومیت",
+      "attempted_at": "2026-11-09T22:38:36.026769+03:30"
+    }
   }
 }
