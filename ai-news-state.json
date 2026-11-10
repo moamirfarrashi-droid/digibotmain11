@@ -77,14 +77,16 @@
         "source": "زومیت",
         "attempted_at": "2026-11-10T03:22:13.039896+03:30",
         "message_id": 1260
+      },
+      {
+        "key": "2026-11-10-s1",
+        "url": "https://digiato.com/artificial-intelligence/openai-control-room-kill-switch-ai-models",
+        "title": "OpenAI از سیستم «اتاق کنترل» برای توقف سریع هوش مصنوعی سرکش رونمایی کرد",
+        "source": "دیجیاتو AI",
+        "attempted_at": "2026-11-10T13:13:35.546816+03:30",
+        "message_id": 1267
       }
     ],
-    "pending": {
-      "key": "2026-11-10-s1",
-      "url": "https://digiato.com/artificial-intelligence/openai-control-room-kill-switch-ai-models",
-      "title": "OpenAI از سیستم «اتاق کنترل» برای توقف سریع هوش مصنوعی سرکش رونمایی کرد",
-      "source": "دیجیاتو AI",
-      "attempted_at": "2026-11-10T13:13:35.546816+03:30"
-    }
+    "pending": null
   }
 }
