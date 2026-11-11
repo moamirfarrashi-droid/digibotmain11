@@ -1,10 +1,10 @@
 name: DigiHinet AI Daily
 on:
   schedule:
-    - cron: '47 6 * * *'  # 10:17 Tehran
-    - cron: '47 16 * * *' # 20:17 Tehran
-    - cron: '47 8 * * *'  # Fresh news 12:17 Tehran
-    - cron: '47 15 * * *' # Fresh news 19:17 Tehran
+    - cron: '30 4 * * *' # 08:00 Tehran
+    - cron: '30 13 * * *' # 17:00 Tehran
+    - cron: '30 6 * * *' # 10:00 Tehran
+    - cron: '30 12 * * *' # 16:00 Tehran
   workflow_dispatch:
     inputs:
       content:
@@ -63,7 +63,7 @@ jobs:
           TELEGRAM_TEST_CHANNEL_ID: ${{ secrets.TELEGRAM_TEST_CHANNEL_ID }}
           PERSIST_STATE: 'true'
         run: |
-          if [ "$CONTENT" = "news" ] || [ "$EVENT_SCHEDULE" = "47 8 * * *" ] || [ "$EVENT_SCHEDULE" = "47 15 * * *" ]; then
+          if [ "$CONTENT" = "news" ] || [ "$EVENT_SCHEDULE" = "30 6 * * *" ] || [ "$EVENT_SCHEDULE" = "30 12 * * *" ]; then
             python news_fa.py --mode "$RUN_MODE" --slot "$SLOT"
           else
             python ai_daily.py --mode "$RUN_MODE" --day "$DAY" --slot "$SLOT"
@@ -75,3 +75,4 @@ jobs:
           path: out/
           retention-days: 3
           if-no-files-found: ignore
+
