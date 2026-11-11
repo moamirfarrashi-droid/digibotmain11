@@ -95,6 +95,12 @@
         "message_id": 1271
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-11-s1",
+      "url": "https://digiato.com/promoted/gisoo-iranian-app-offers-680-ai-models",
+      "title": "گیسو؛ جواب ایرانی به ابزارهای جهانی هوش مصنوعی: ۶۸۰ مدل در یک اپ فارسی",
+      "source": "دیجیاتو فناوری",
+      "attempted_at": "2026-11-11T12:45:18.382321+03:30"
+    }
   }
 }
