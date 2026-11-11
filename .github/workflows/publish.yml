@@ -1,31 +1,28 @@
-name: DigiHinet AI Daily
+name: DigiHinet 20 Days
 on:
   schedule:
-    - cron: '30 4 * * *' # 08:00 Tehran
-    - cron: '30 13 * * *' # 17:00 Tehran
-    - cron: '30 6 * * *' # 10:00 Tehran
-    - cron: '30 12 * * *' # 16:00 Tehran
+    - cron: '30 3 * * *' # 07:00 Tehran
+    - cron: '30 5 * * *' # 09:00 Tehran
+    - cron: '30 7 * * *' # 11:00 Tehran
+    - cron: '30 9 * * *' # 13:00 Tehran
+    - cron: '30 11 * * *' # 15:00 Tehran
+    - cron: '0 15 * * *' # 18:30 Tehran
   workflow_dispatch:
     inputs:
-      content:
-        description: ready = prepared images / news = fresh Persian news
-        type: choice
-        default: ready
-        options: [ready, news]
       mode:
         description: 'preview / test / publish'
         type: choice
         default: preview
         options: [preview, test, publish]
       day:
-        description: 'Test: 1-20; publish: 0'
-        type: string
+        description: 'Preview/test day 1–20; use 0 for automatic publish day'
         default: '0'
+        type: string
       slot:
-        description: 'AI post 1 or 2'
-        type: choice
+        description: 'Slot 1–6'
         default: '1'
-        options: ['1', '2']
+        type: choice
+        options: ['1', '2', '3', '4', '5', '6']
 permissions:
   contents: write
 concurrency:
@@ -43,35 +40,29 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install requests==2.32.5
-      - name: Check AI content
-        run: python -m unittest test_ai_daily test_news_fa -v
+      - name: Check campaign
+        run: python -m unittest test_campaign20 test_posting_hours -v
       - name: Git identity
         run: |
           git config user.name 'digihinet-bot'
           git config user.email 'digihinet-bot@users.noreply.github.com'
-      - name: Publish reviewed AI post
+      - name: Publish one slot
         env:
-          CONTENT: ${{ inputs.content }}
-          ENABLE_AI_NEWS: ${{ vars.ENABLE_AI_NEWS }}
           RUN_MODE: ${{ inputs.mode || 'publish' }}
           DAY: ${{ inputs.day || '0' }}
           SLOT: ${{ inputs.slot || '0' }}
           EVENT_SCHEDULE: ${{ github.event.schedule }}
-          ENABLE_AI_POSTING: ${{ vars.ENABLE_AI_POSTING }}
+          ENABLE_POSTING: ${{ vars.ENABLE_POSTING }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           TELEGRAM_TEST_CHANNEL_ID: ${{ secrets.TELEGRAM_TEST_CHANNEL_ID }}
           PERSIST_STATE: 'true'
-        run: |
-          if [ "$CONTENT" = "news" ] || [ "$EVENT_SCHEDULE" = "30 6 * * *" ] || [ "$EVENT_SCHEDULE" = "30 12 * * *" ]; then
-            python news_fa.py --mode "$RUN_MODE" --slot "$SLOT"
-          else
-            python ai_daily.py --mode "$RUN_MODE" --day "$DAY" --slot "$SLOT"
-          fi
+        run: python campaign20.py --mode "$RUN_MODE" --day "$DAY" --slot "$SLOT"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: ai-preview-${{ github.run_id }}
+          name: campaign-preview-${{ github.run_id }}
           path: out/
           retention-days: 3
           if-no-files-found: ignore
+
