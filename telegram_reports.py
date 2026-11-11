@@ -149,7 +149,7 @@ def plan(channel, target, now=None):
     for cat, state, posts, config in sources(channel):
         blocks.append('<b>' + LABELS[cat] + '</b>')
         if cat == 'news':
-            for slot, time in [(1, '12:17'), (2, '19:17')]:
+            for slot, time in list(enumerate(read('ai-config.json').get('news_times', ['10:00', '16:00']), 1)):
                 key = target.isoformat() + '-s' + str(slot)
                 done = any(s.get('key') == key for s in state.get('sent', []))
                 blocks.append(('✅ ' if done else '⏳ ') + time + ' · خبر تازه، مشروط به وجود خبر مناسب')
@@ -333,3 +333,4 @@ if __name__ == '__main__':
     except Exception as exc:
         print('خطای گزارش:', str(exc) if isinstance(exc, RuntimeError) else type(exc).__name__)
         sys.exit(1)
+

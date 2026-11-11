@@ -54,6 +54,8 @@ def queue(channel, now):
 
 
 def deliver(task, channel, token, now):
+    if not (7 <= now.astimezone(TZ).hour < 19):
+        return False
     mod = importlib.import_module(task['module'])
     prefix, p = task['prefix'], task['post']
     state = read(prefix + '-state.json', {})
@@ -107,11 +109,14 @@ def news_due(channel, now):
     if state.get('pending'):
         raise RuntimeError('خبر ارسال نامشخص دارد؛ نیاز به بررسی کانال است.')
     sent = {x['key'] for x in state.get('sent', [])}
-    return [slot for slot, clock in [(1, '12:17'), (2, '19:17')]
+    return [slot for slot, clock in list(enumerate(read('ai-config.json').get('news_times', ['10:00', '16:00']), 1))
             if now.strftime('%H:%M') >= clock and now.date().isoformat() + '-s' + str(slot) not in sent]
 
 
 def reconcile(channel, now, max_posts=4, gap=10, preview=False):
+    if not preview and not (7 <= now.astimezone(TZ).hour < 19):
+        print('خارج از بازه انتشار؛ عقب‌افتاده‌ها از ساعت ۷ صبح بررسی می‌شوند.')
+        return True
     tasks, blocked = queue(channel, now)
     if blocked:
         print('ارسال نامشخص قبلی؛ دسته‌های متوقف:', ', '.join(blocked))
@@ -180,3 +185,4 @@ if __name__ == '__main__':
     except Exception as exc:
         print('خطا:', str(exc) if isinstance(exc, (RuntimeError, ValueError)) else type(exc).__name__)
         sys.exit(1)
+

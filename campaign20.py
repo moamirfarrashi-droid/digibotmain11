@@ -11,8 +11,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 ROOT = Path(__file__).resolve().parent
-CRON_SLOTS = {'47 5 * * *':1, '47 7 * * *':2, '47 9 * * *':3,
-              '47 11 * * *':4, '47 14 * * *':5, '47 17 * * *':6}
+CRON_SLOTS = {'30 3 * * *':1, '30 5 * * *':2, '30 7 * * *':3, '30 9 * * *':4, '30 11 * * *':5, '0 15 * * *':6}
 
 class TelegramRejected(RuntimeError):
     """Telegram explicitly rejected the request; no message was sent."""
@@ -101,6 +100,8 @@ def main():
     posts=load('campaign.json')
     state=load('campaign-state.json',{})
     now=datetime.now(ZoneInfo(config['timezone']))
+    if args.mode=='publish' and not (7 <= now.hour < 19):
+        print('خارج از بازه انتشار ۰۷:۰۰ تا ۱۹:۰۰ تهران؛ ارسال به بازه بعد موکول شد.');return
     channel=os.getenv('TELEGRAM_TEST_CHANNEL_ID' if args.mode=='test' else 'TELEGRAM_CHANNEL_ID','').strip()
     slot=args.slot or CRON_SLOTS.get(os.getenv('EVENT_SCHEDULE',''),1)
     # Preview is read-only and can inspect any day; manual sends use explicit day.
@@ -151,3 +152,4 @@ if __name__=='__main__':
     except Exception as e:
         print('خطا:',str(e) if isinstance(e,(RuntimeError,ValueError)) else type(e).__name__)
         sys.exit(1)
+

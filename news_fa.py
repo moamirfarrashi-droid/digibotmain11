@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 import requests
 import ai_daily as transport
 ROOT=Path(__file__).resolve().parent
-CRONS={'47 8 * * *':1,'47 15 * * *':2}
+CRONS={'30 6 * * *':1, '30 12 * * *':2}
 class PlainText(HTMLParser):
  def __init__(self):super().__init__();self.parts=[];self.hidden=0
  def handle_starttag(self,tag,attrs):
@@ -79,7 +79,10 @@ def make_post(p):
 def run(mode,slot,now=None):
  if slot not in (1,2):raise ValueError('نوبت باید ۱ یا ۲ باشد.')
  if mode=='publish' and os.getenv('ENABLE_AI_NEWS')!='true':print('خبر خودکار خاموش است.');return
- now=now or datetime.now(ZoneInfo('Asia/Tehran'));datekey=now.astimezone(ZoneInfo('Asia/Tehran')).date().isoformat();key=datekey+'-s'+str(slot)
+ now=now or datetime.now(ZoneInfo('Asia/Tehran'))
+ if mode=='publish' and not (7 <= now.astimezone(ZoneInfo('Asia/Tehran')).hour < 19):
+  print('خارج از بازه انتشار ۰۷:۰۰ تا ۱۹:۰۰ تهران؛ خبری ارسال نشد.');return
+ datekey=now.astimezone(ZoneInfo('Asia/Tehran')).date().isoformat();key=datekey+'-s'+str(slot)
  channel=os.getenv('TELEGRAM_TEST_CHANNEL_ID' if mode=='test' else 'TELEGRAM_CHANNEL_ID','').strip()
  if mode!='preview':
   if not channel:raise ValueError('کانال تنظیم نشده است.')
@@ -114,3 +117,4 @@ if __name__=='__main__':
  try:main()
  except Exception as e:
   print('خطا:',str(e) if isinstance(e,(ValueError,RuntimeError)) else type(e).__name__);sys.exit(1)
+
