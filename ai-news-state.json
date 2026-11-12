@@ -103,6 +103,12 @@
         "message_id": 1278
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-12-s1",
+      "url": "https://hooshio.com/3-analogies-every-newsroom-should-use-when-talking-about-ai/",
+      "title": "سه تمثیل هوش مصنوعی برای تحریریه‌های رسانه‌ای",
+      "source": "هوشیو",
+      "attempted_at": "2026-11-12T16:03:09.464459+03:30"
+    }
   }
 }
