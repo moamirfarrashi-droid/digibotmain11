@@ -101,14 +101,16 @@
         "source": "دیجیاتو فناوری",
         "attempted_at": "2026-11-11T12:45:18.382321+03:30",
         "message_id": 1278
+      },
+      {
+        "key": "2026-11-12-s1",
+        "url": "https://hooshio.com/3-analogies-every-newsroom-should-use-when-talking-about-ai/",
+        "title": "سه تمثیل هوش مصنوعی برای تحریریه‌های رسانه‌ای",
+        "source": "هوشیو",
+        "attempted_at": "2026-11-12T16:03:09.464459+03:30",
+        "message_id": 1285
       }
     ],
-    "pending": {
-      "key": "2026-11-12-s1",
-      "url": "https://hooshio.com/3-analogies-every-newsroom-should-use-when-talking-about-ai/",
-      "title": "سه تمثیل هوش مصنوعی برای تحریریه‌های رسانه‌ای",
-      "source": "هوشیو",
-      "attempted_at": "2026-11-12T16:03:09.464459+03:30"
-    }
+    "pending": null
   }
 }
