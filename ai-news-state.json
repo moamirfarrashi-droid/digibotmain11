@@ -109,14 +109,16 @@
         "source": "هوشیو",
         "attempted_at": "2026-11-12T16:03:09.464459+03:30",
         "message_id": 1285
+      },
+      {
+        "key": "2026-11-12-s2",
+        "url": "https://digiato.com/health/anthropic-ceo-dario-amodei-ai-cure-cancer-alzheimers-backlash",
+        "title": "مدیرعامل آنتروپیک: هوش مصنوعی تا ۱۰ سال آینده سرطان و آلزایمر را ریشه‌کن می‌کند",
+        "source": "دیجیاتو فناوری",
+        "attempted_at": "2026-11-12T16:03:19.717472+03:30",
+        "message_id": 1286
       }
     ],
-    "pending": {
-      "key": "2026-11-12-s2",
-      "url": "https://digiato.com/health/anthropic-ceo-dario-amodei-ai-cure-cancer-alzheimers-backlash",
-      "title": "مدیرعامل آنتروپیک: هوش مصنوعی تا ۱۰ سال آینده سرطان و آلزایمر را ریشه‌کن می‌کند",
-      "source": "دیجیاتو فناوری",
-      "attempted_at": "2026-11-12T16:03:19.717472+03:30"
-    }
+    "pending": null
   }
 }
