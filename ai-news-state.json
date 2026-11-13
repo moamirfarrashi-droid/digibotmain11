@@ -119,6 +119,12 @@
         "message_id": 1286
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-13-s1",
+      "url": "https://hooshio.com/gemini-4-hydrogen/",
+      "title": "جمنای ۴ هیدروژن؛ سریع، سبک، کارآمد",
+      "source": "هوشیو",
+      "attempted_at": "2026-11-13T11:32:22.620087+03:30"
+    }
   }
 }
