@@ -135,6 +135,12 @@
         "message_id": 1298
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-14-s2",
+      "url": "https://hooshio.com/will-ai-trap-you-in-the-permanent-underclass/",
+      "title": "آیا هوش مصنوعی شما را در «طبقه فرودست دائمی» به دام خواهد انداخت؟",
+      "source": "هوشیو",
+      "attempted_at": "2026-11-14T18:53:00.986928+03:30"
+    }
   }
 }
