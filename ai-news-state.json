@@ -125,14 +125,16 @@
         "source": "هوشیو",
         "attempted_at": "2026-11-13T11:32:22.620087+03:30",
         "message_id": 1291
+      },
+      {
+        "key": "2026-11-14-s1",
+        "url": "https://www.zoomit.ir/pr/471110-claude-account-banned-gateway-solution/",
+        "title": "در صورت بن شدن اکانت Claude چیکار کنیم؟",
+        "source": "زومیت",
+        "attempted_at": "2026-11-14T12:15:10.446924+03:30",
+        "message_id": 1298
       }
     ],
-    "pending": {
-      "key": "2026-11-14-s1",
-      "url": "https://www.zoomit.ir/pr/471110-claude-account-banned-gateway-solution/",
-      "title": "در صورت بن شدن اکانت Claude چیکار کنیم؟",
-      "source": "زومیت",
-      "attempted_at": "2026-11-14T12:15:10.446924+03:30"
-    }
+    "pending": null
   }
 }
