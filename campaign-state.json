@@ -435,14 +435,16 @@
         "slot": 3,
         "attempted_at": "2026-11-14T17:53:00.298960+03:30",
         "message_id": 1303
+      },
+      {
+        "id": "dh20-d07-s6",
+        "day": 7,
+        "slot": 6,
+        "scheduled_at": "2026-11-13T18:30:00+03:30",
+        "attempted_at": "2026-11-14T18:52:16.472592+03:30",
+        "message_id": 1304
       }
     ],
-    "pending": {
-      "id": "dh20-d07-s6",
-      "day": 7,
-      "slot": 6,
-      "scheduled_at": "2026-11-13T18:30:00+03:30",
-      "attempted_at": "2026-11-14T18:52:16.472592+03:30"
-    }
+    "pending": null
   }
 }
