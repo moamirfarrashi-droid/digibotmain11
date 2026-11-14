@@ -119,14 +119,16 @@
         "slot": 1,
         "attempted_at": "2026-11-13T15:55:18.958952+03:30",
         "message_id": 1292
+      },
+      {
+        "id": "dhai20-d07-s2",
+        "day": 7,
+        "slot": 2,
+        "scheduled_at": "2026-11-13T17:00:00+03:30",
+        "attempted_at": "2026-11-14T12:15:06.000982+03:30",
+        "message_id": 1297
       }
     ],
-    "pending": {
-      "id": "dhai20-d07-s2",
-      "day": 7,
-      "slot": 2,
-      "scheduled_at": "2026-11-13T17:00:00+03:30",
-      "attempted_at": "2026-11-14T12:15:06.000982+03:30"
-    }
+    "pending": null
   }
 }
