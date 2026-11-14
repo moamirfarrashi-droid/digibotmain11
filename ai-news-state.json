@@ -127,6 +127,12 @@
         "message_id": 1291
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-14-s1",
+      "url": "https://www.zoomit.ir/pr/471110-claude-account-banned-gateway-solution/",
+      "title": "در صورت بن شدن اکانت Claude چیکار کنیم؟",
+      "source": "زومیت",
+      "attempted_at": "2026-11-14T12:15:10.446924+03:30"
+    }
   }
 }
