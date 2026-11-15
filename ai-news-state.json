@@ -143,6 +143,12 @@
         "message_id": 1308
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-15-s1",
+      "url": "https://www.zoomit.ir/pr/471179-ai-chatbots-medical-advice-risks/",
+      "title": "مشاوره پزشکی با هوش مصنوعی؛ کجا قابل اعتماد است؟",
+      "source": "زومیت",
+      "attempted_at": "2026-11-15T14:15:48.119216+03:30"
+    }
   }
 }
