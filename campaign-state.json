@@ -483,13 +483,15 @@
         "scheduled_at": "2026-11-15T09:00:00+03:30",
         "attempted_at": "2026-11-15T14:15:44.021367+03:30",
         "message_id": 1313
+      },
+      {
+        "id": "dh20-d09-s3",
+        "day": 9,
+        "slot": 3,
+        "attempted_at": "2026-11-15T18:23:46.841061+03:30",
+        "message_id": 1315
       }
     ],
-    "pending": {
-      "id": "dh20-d09-s3",
-      "day": 9,
-      "slot": 3,
-      "attempted_at": "2026-11-15T18:23:46.841061+03:30"
-    }
+    "pending": null
   }
 }
