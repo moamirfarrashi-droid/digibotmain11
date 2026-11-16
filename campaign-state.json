@@ -521,13 +521,15 @@
         "slot": 1,
         "attempted_at": "2026-11-16T15:18:29.172028+03:30",
         "message_id": 1321
+      },
+      {
+        "id": "dh20-d10-s2",
+        "day": 10,
+        "slot": 2,
+        "attempted_at": "2026-11-16T17:25:42.098819+03:30",
+        "message_id": 1323
       }
     ],
-    "pending": {
-      "id": "dh20-d10-s2",
-      "day": 10,
-      "slot": 2,
-      "attempted_at": "2026-11-16T17:25:42.098819+03:30"
-    }
+    "pending": null
   }
 }
