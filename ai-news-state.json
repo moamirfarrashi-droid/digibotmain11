@@ -149,14 +149,16 @@
         "source": "زومیت",
         "attempted_at": "2026-11-15T14:15:48.119216+03:30",
         "message_id": 1314
+      },
+      {
+        "key": "2026-11-16-s1",
+        "url": "https://www.zoomit.ir/ai-articles/471250-ai-standard-model-particle-physics/",
+        "title": "چت‌جی‌پی‌تی‌ به حل مسئله ۵۰ ساله در فیزیک ذرات نزدیک شد",
+        "source": "زومیت",
+        "attempted_at": "2026-11-16T12:04:05.275790+03:30",
+        "message_id": 1320
       }
     ],
-    "pending": {
-      "key": "2026-11-16-s1",
-      "url": "https://www.zoomit.ir/ai-articles/471250-ai-standard-model-particle-physics/",
-      "title": "چت‌جی‌پی‌تی‌ به حل مسئله ۵۰ ساله در فیزیک ذرات نزدیک شد",
-      "source": "زومیت",
-      "attempted_at": "2026-11-16T12:04:05.275790+03:30"
-    }
+    "pending": null
   }
 }
