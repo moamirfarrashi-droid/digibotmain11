@@ -157,14 +157,16 @@
         "source": "زومیت",
         "attempted_at": "2026-11-16T12:04:05.275790+03:30",
         "message_id": 1320
+      },
+      {
+        "key": "2026-11-17-s1",
+        "url": "https://www.zoomit.ir/ai-articles/471245-us-allies-ai-supply-chain-pact/",
+        "title": "توافق ۱۰ کشور برای حفاظت از اسرار هوش مصنوعی؛ آمریکا به‌دنبال محدودکردن نفوذ چین",
+        "source": "زومیت",
+        "attempted_at": "2026-11-17T14:10:33.305512+03:30",
+        "message_id": 1333
       }
     ],
-    "pending": {
-      "key": "2026-11-17-s1",
-      "url": "https://www.zoomit.ir/ai-articles/471245-us-allies-ai-supply-chain-pact/",
-      "title": "توافق ۱۰ کشور برای حفاظت از اسرار هوش مصنوعی؛ آمریکا به‌دنبال محدودکردن نفوذ چین",
-      "source": "زومیت",
-      "attempted_at": "2026-11-17T14:10:33.305512+03:30"
-    }
+    "pending": null
   }
 }
