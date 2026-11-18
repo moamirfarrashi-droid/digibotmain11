@@ -180,13 +180,15 @@
         "slot": 1,
         "attempted_at": "2026-11-17T17:09:57.742331+03:30",
         "message_id": 1336
+      },
+      {
+        "id": "dhai20-d12-s1",
+        "day": 12,
+        "slot": 1,
+        "attempted_at": "2026-11-18T16:44:48.053566+03:30",
+        "message_id": 1345
       }
     ],
-    "pending": {
-      "id": "dhai20-d12-s1",
-      "day": 12,
-      "slot": 1,
-      "attempted_at": "2026-11-18T16:44:48.053566+03:30"
-    }
+    "pending": null
   }
 }
