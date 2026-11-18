@@ -165,14 +165,16 @@
         "source": "زومیت",
         "attempted_at": "2026-11-17T14:10:33.305512+03:30",
         "message_id": 1333
+      },
+      {
+        "key": "2026-11-18-s1",
+        "url": "https://hooshio.com/ai-is-upending-how-consulting-firms-hire-talent/",
+        "title": "هوش مصنوعی در حال دگرگون‌کردن شیوه جذب استعدادها در شرکت‌های مشاوره است",
+        "source": "هوشیو",
+        "attempted_at": "2026-11-18T12:43:01.119304+03:30",
+        "message_id": 1342
       }
     ],
-    "pending": {
-      "key": "2026-11-18-s1",
-      "url": "https://hooshio.com/ai-is-upending-how-consulting-firms-hire-talent/",
-      "title": "هوش مصنوعی در حال دگرگون‌کردن شیوه جذب استعدادها در شرکت‌های مشاوره است",
-      "source": "هوشیو",
-      "attempted_at": "2026-11-18T12:43:01.119304+03:30"
-    }
+    "pending": null
   }
 }
