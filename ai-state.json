@@ -182,6 +182,11 @@
         "message_id": 1336
       }
     ],
-    "pending": null
+    "pending": {
+      "id": "dhai20-d12-s1",
+      "day": 12,
+      "slot": 1,
+      "attempted_at": "2026-11-18T16:44:48.053566+03:30"
+    }
   }
 }
