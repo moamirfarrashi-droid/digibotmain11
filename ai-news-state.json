@@ -175,6 +175,12 @@
         "message_id": 1342
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-19-s1",
+      "url": "https://hooshio.com/anthropics-ipo-at-a-1-5-trillion-valuation-how-an-ai-chatbot-drove-the-largest-initial-public-offering-ipo-in-history/",
+      "title": "عرضه اولیه سهام آنتروپیک با ارزش‌گذاری ۱۵۰۰ میلیارددلاری؛ چگونه یک چت‌بات هوش مصنوعی بزرگ‌ترین عرضه اولیه (IPO) تاریخ را رقم زد",
+      "source": "هوشیو",
+      "attempted_at": "2026-11-19T11:04:31.039131+03:30"
+    }
   }
 }
