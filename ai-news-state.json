@@ -183,6 +183,12 @@
         "message_id": 1351
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-20-s1",
+      "url": "https://digiato.com/artificial-intelligence/north-korea-shows-off-an-ai-chatbot",
+      "title": "کره شمالی از چت‌بات هوش مصنوعی اختصاصی خود با نام «چشمه خرد» رونمایی کرد",
+      "source": "دیجیاتو AI",
+      "attempted_at": "2026-11-20T16:14:11.188945+03:30"
+    }
   }
 }
