@@ -699,6 +699,12 @@
         "message_id": 1361
       }
     ],
-    "pending": null
+    "pending": {
+      "id": "dh20-d13-s6",
+      "day": 13,
+      "slot": 6,
+      "scheduled_at": "2026-11-19T18:30:00+03:30",
+      "attempted_at": "2026-11-20T16:14:06.582054+03:30"
+    }
   }
 }
