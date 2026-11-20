@@ -191,6 +191,12 @@
         "message_id": 1364
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-20-s2",
+      "url": "https://digiato.com/security/eu-commission-targeted-in-cyberattack-through-ai-tools",
+      "title": "کمیسیون اروپا با ابزارهای هوش مصنوعی هدف حمله سایبری قرار گرفت",
+      "source": "دیجیاتو AI",
+      "attempted_at": "2026-11-20T16:14:22.583162+03:30"
+    }
   }
 }
