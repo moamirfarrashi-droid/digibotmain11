@@ -197,14 +197,16 @@
         "source": "دیجیاتو AI",
         "attempted_at": "2026-11-20T16:14:22.583162+03:30",
         "message_id": 1365
+      },
+      {
+        "key": "2026-11-21-s1",
+        "url": "https://digiato.com/finance-investment/anthropic-stock-falls-first-full-trading-day",
+        "title": "سهام آنتروپیک یک روز پس از عرضه اولیه با ریزش سنگین ۹ درصدی مواجه شد",
+        "source": "دیجیاتو فناوری",
+        "attempted_at": "2026-11-21T12:22:27.919071+03:30",
+        "message_id": 1376
       }
     ],
-    "pending": {
-      "key": "2026-11-21-s1",
-      "url": "https://digiato.com/finance-investment/anthropic-stock-falls-first-full-trading-day",
-      "title": "سهام آنتروپیک یک روز پس از عرضه اولیه با ریزش سنگین ۹ درصدی مواجه شد",
-      "source": "دیجیاتو فناوری",
-      "attempted_at": "2026-11-21T12:22:27.919071+03:30"
-    }
+    "pending": null
   }
 }
