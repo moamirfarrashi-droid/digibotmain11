@@ -199,6 +199,12 @@
         "message_id": 1365
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-21-s1",
+      "url": "https://digiato.com/finance-investment/anthropic-stock-falls-first-full-trading-day",
+      "title": "سهام آنتروپیک یک روز پس از عرضه اولیه با ریزش سنگین ۹ درصدی مواجه شد",
+      "source": "دیجیاتو فناوری",
+      "attempted_at": "2026-11-21T12:22:27.919071+03:30"
+    }
   }
 }
