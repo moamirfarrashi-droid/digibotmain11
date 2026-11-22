@@ -795,13 +795,15 @@
         "slot": 2,
         "attempted_at": "2026-11-22T17:02:37.135259+03:30",
         "message_id": 1387
+      },
+      {
+        "id": "dh20-d16-s3",
+        "day": 16,
+        "slot": 3,
+        "attempted_at": "2026-11-22T18:59:28.325801+03:30",
+        "message_id": 1389
       }
     ],
-    "pending": {
-      "id": "dh20-d16-s3",
-      "day": 16,
-      "slot": 3,
-      "attempted_at": "2026-11-22T18:59:28.325801+03:30"
-    }
+    "pending": null
   }
 }
