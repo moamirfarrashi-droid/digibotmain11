@@ -207,6 +207,12 @@
         "message_id": 1376
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-22-s1",
+      "url": "https://hooshio.com/the-ministry-of-science-issues-regulations-for-the-use-of-artificial-intelligence-in-iranian-universities/",
+      "title": "وزارت علوم ضوابط استفاده از هوش مصنوعی در دانشگاه‌های ایران را ابلاغ می‌کند",
+      "source": "هوشیو",
+      "attempted_at": "2026-11-22T18:19:05.214724+03:30"
+    }
   }
 }
