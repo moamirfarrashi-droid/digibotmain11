@@ -820,6 +820,12 @@
         "message_id": 1392
       }
     ],
-    "pending": null
+    "pending": {
+      "id": "dh20-d16-s5",
+      "day": 16,
+      "slot": 5,
+      "scheduled_at": "2026-11-22T15:00:00+03:30",
+      "attempted_at": "2026-11-23T14:47:02.889163+03:30"
+    }
   }
 }
