@@ -213,14 +213,16 @@
         "source": "هوشیو",
         "attempted_at": "2026-11-22T18:19:05.214724+03:30",
         "message_id": 1388
+      },
+      {
+        "key": "2026-11-23-s1",
+        "url": "https://digiato.com/artificial-intelligence/red-cross-warns-too-late-regulate-autonomous-weapons",
+        "title": "هشدار صلیب سرخ: فرصت زیادی برای مهار سلاح‌های خودمختار و هوش مصنوعی نداریم",
+        "source": "دیجیاتو AI",
+        "attempted_at": "2026-11-23T14:47:22.016858+03:30",
+        "message_id": 1395
       }
     ],
-    "pending": {
-      "key": "2026-11-23-s1",
-      "url": "https://digiato.com/artificial-intelligence/red-cross-warns-too-late-regulate-autonomous-weapons",
-      "title": "هشدار صلیب سرخ: فرصت زیادی برای مهار سلاح‌های خودمختار و هوش مصنوعی نداریم",
-      "source": "دیجیاتو AI",
-      "attempted_at": "2026-11-23T14:47:22.016858+03:30"
-    }
+    "pending": null
   }
 }
