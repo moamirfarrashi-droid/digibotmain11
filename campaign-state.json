@@ -867,6 +867,11 @@
         "message_id": 1405
       }
     ],
-    "pending": null
+    "pending": {
+      "id": "dh20-d18-s1",
+      "day": 18,
+      "slot": 1,
+      "attempted_at": "2026-11-24T17:29:45.570035+03:30"
+    }
   }
 }
