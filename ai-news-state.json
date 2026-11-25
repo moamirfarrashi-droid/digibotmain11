@@ -221,14 +221,16 @@
         "source": "دیجیاتو AI",
         "attempted_at": "2026-11-23T14:47:22.016858+03:30",
         "message_id": 1395
+      },
+      {
+        "key": "2026-11-25-s1",
+        "url": "https://hooshio.com/a-i-is-coming-for-culture/",
+        "title": "هوش مصنوعی به سراغ فرهنگ می‌آید",
+        "source": "هوشیو",
+        "attempted_at": "2026-11-25T14:59:41.707061+03:30",
+        "message_id": 1412
       }
     ],
-    "pending": {
-      "key": "2026-11-25-s1",
-      "url": "https://hooshio.com/a-i-is-coming-for-culture/",
-      "title": "هوش مصنوعی به سراغ فرهنگ می‌آید",
-      "source": "هوشیو",
-      "attempted_at": "2026-11-25T14:59:41.707061+03:30"
-    }
+    "pending": null
   }
 }
