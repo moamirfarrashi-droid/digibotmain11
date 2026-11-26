@@ -300,13 +300,15 @@
         "scheduled_at": "2026-11-24T17:00:00+03:30",
         "attempted_at": "2026-11-26T15:45:45.263776+03:30",
         "message_id": 1421
+      },
+      {
+        "id": "dhai20-d20-s1",
+        "day": 20,
+        "slot": 1,
+        "attempted_at": "2026-11-26T17:34:25.181783+03:30",
+        "message_id": 1423
       }
     ],
-    "pending": {
-      "id": "dhai20-d20-s1",
-      "day": 20,
-      "slot": 1,
-      "attempted_at": "2026-11-26T17:34:25.181783+03:30"
-    }
+    "pending": null
   }
 }
