@@ -239,6 +239,12 @@
         "message_id": 1434
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-27-s2",
+      "url": "https://www.zoomit.ir/ai-articles/471909-apple-removes-talkie-ai-chatbot/",
+      "title": "هوش مصنوعی «مینی‌مکس» از اپ استور آیفون حذف شد؛ نگرانی اپل از امنیت کودکان",
+      "source": "زومیت",
+      "attempted_at": "2026-11-27T16:42:50.425362+03:30"
+    }
   }
 }
