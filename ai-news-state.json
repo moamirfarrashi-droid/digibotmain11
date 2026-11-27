@@ -229,14 +229,16 @@
         "source": "هوشیو",
         "attempted_at": "2026-11-25T14:59:41.707061+03:30",
         "message_id": 1412
+      },
+      {
+        "key": "2026-11-27-s1",
+        "url": "https://digiato.com/app/one-ui-9-5-introduces-zoom-enhance",
+        "title": "سامسونگ قابلیت افزایش وضوح عکس با هوش مصنوعی را به گالری اضافه می‌کند",
+        "source": "دیجیاتو AI",
+        "attempted_at": "2026-11-27T16:42:42.442757+03:30",
+        "message_id": 1434
       }
     ],
-    "pending": {
-      "key": "2026-11-27-s1",
-      "url": "https://digiato.com/app/one-ui-9-5-introduces-zoom-enhance",
-      "title": "سامسونگ قابلیت افزایش وضوح عکس با هوش مصنوعی را به گالری اضافه می‌کند",
-      "source": "دیجیاتو AI",
-      "attempted_at": "2026-11-27T16:42:42.442757+03:30"
-    }
+    "pending": null
   }
 }
