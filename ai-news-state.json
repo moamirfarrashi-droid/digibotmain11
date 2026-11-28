@@ -245,14 +245,16 @@
         "source": "زومیت",
         "attempted_at": "2026-11-27T16:42:50.425362+03:30",
         "message_id": 1435
+      },
+      {
+        "key": "2026-11-28-s1",
+        "url": "https://hooshio.com/scientists-warn-of-the-potential-for-artificial-intelligence-to-break-internet-encryption/",
+        "title": "هشدار دانشمندان درباره احتمال شکستن رمزنگاری اینترنت با کمک هوش مصنوعی",
+        "source": "هوشیو",
+        "attempted_at": "2026-11-28T15:57:18.157328+03:30",
+        "message_id": 1441
       }
     ],
-    "pending": {
-      "key": "2026-11-28-s1",
-      "url": "https://hooshio.com/scientists-warn-of-the-potential-for-artificial-intelligence-to-break-internet-encryption/",
-      "title": "هشدار دانشمندان درباره احتمال شکستن رمزنگاری اینترنت با کمک هوش مصنوعی",
-      "source": "هوشیو",
-      "attempted_at": "2026-11-28T15:57:18.157328+03:30"
-    }
+    "pending": null
   }
 }
