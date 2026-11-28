@@ -247,6 +247,12 @@
         "message_id": 1435
       }
     ],
-    "pending": null
+    "pending": {
+      "key": "2026-11-28-s1",
+      "url": "https://hooshio.com/scientists-warn-of-the-potential-for-artificial-intelligence-to-break-internet-encryption/",
+      "title": "هشدار دانشمندان درباره احتمال شکستن رمزنگاری اینترنت با کمک هوش مصنوعی",
+      "source": "هوشیو",
+      "attempted_at": "2026-11-28T15:57:18.157328+03:30"
+    }
   }
 }
